@@ -9,10 +9,10 @@ insert_line_below = "o"
 insert_line_above = "O"
 
 # The "classic" move keys
-move_up = "<key_up>"
-move_down = "<key_down>"
-move_left = "<key_left>"
-move_right = "<key_right>"
+move_up = "<up>"
+move_down = "<down>"
+move_left = "<left>"
+move_right = "<right>"
 
 # The "vim-like" move keys
 move_up = "k"
@@ -20,8 +20,8 @@ move_down = "j"
 move_left = "h"
 move_right = "l"
 
-page_up = "<page_up>"
-page_down = "<page_down>"
+page_up = "<pageup>"
+page_down = "<pagedown>"
 
 
 [visual_mode]
@@ -31,10 +31,10 @@ delete_selection = "d"
 paste = "p"
 
 # The "classic" move keys
-move_up_and_select = "<key_up>"
-move_down_and_select = "<key_down>"
-move_left_and_select = "<key_left>"
-move_right_and_select = "<key_right>"
+move_up_and_select = "<up>"
+move_down_and_select = "<down>"
+move_left_and_select = "<left>"
+move_right_and_select = "<right>"
 
 # The "vim-like" move keys
 move_up_and_select = "k"
@@ -47,13 +47,13 @@ move_right_and_select = "l"
 switch_to_normal_mode = "<esc>"
 
 # The "classic" move keys
-move_up = "<key_up>"
-move_down = "<key_down>"
-move_left = "<key_left>"
-move_right = "<key_right>"
+move_up = "<up>"
+move_down = "<down>"
+move_left = "<left>"
+move_right = "<right>"
 
-page_up = "<page_up>"
-page_down = "<page_down>"
+page_up = "<pageup>"
+page_down = "<pagedown>"
 
 delete_forward = "<del>"
 delete_backward = "<backspace>"

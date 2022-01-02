@@ -29,14 +29,14 @@ impl KeyStroke {
             return Some(KeyStroke::Char(description.chars().nth(0).unwrap()));
         }
 
-        match description {
+        match description.to_lowercase().as_str() {
             "<f1>" => Some(KeyStroke::KeyF(1)),
-            "<key_up>" => Some(KeyStroke::KeyUp),
-            "<key_down>" => Some(KeyStroke::KeyDown),
-            "<key_left>" => Some(KeyStroke::KeyLeft),
-            "<key_right>" => Some(KeyStroke::KeyRight),
-            "<page_up>" => Some(KeyStroke::KeyPreviousPage),
-            "<page_down>" => Some(KeyStroke::KeyNextPage),
+            "<up>" => Some(KeyStroke::KeyUp),
+            "<down>" => Some(KeyStroke::KeyDown),
+            "<left>" => Some(KeyStroke::KeyLeft),
+            "<right>" => Some(KeyStroke::KeyRight),
+            "<pageup>" => Some(KeyStroke::KeyPreviousPage),
+            "<pagedown>" => Some(KeyStroke::KeyNextPage),
             "<backspace>" => Some(KeyStroke::KeyBackSpace),
             "<del>" => Some(KeyStroke::KeyDelete),
             "<space>" => Some(KeyStroke::KeySpace),
